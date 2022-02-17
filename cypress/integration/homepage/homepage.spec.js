@@ -12,7 +12,9 @@ Then('I should be on the home page', () => {
   cy.url().should('eq', 'https://jupiterone.com/');
 });
 
-And('I should see content on the page', () => {});
+And('I should see content on the page', () => {
+    
+});
 
 And('I should be able to scroll to the bottom of the page', () => {});
 
