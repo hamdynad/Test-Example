@@ -1,0 +1,6 @@
+{
+    "testFiles": "**/*.feature",
+    "env": {
+        "url": "https://jupiterone.com/"
+    }
+  }
