@@ -1,6 +1,6 @@
 # JupiterOne Website Test
 
-Automation tests for JupiterOne marketing website utilizing Cypress and Cucumber.  
+Automation tests for JupiterOne marketing website utilizing Cypress and Cucumber.
 
 ## Installation
 
@@ -30,4 +30,9 @@ The final step is to run a package dependency install, once you are on the corre
 ```bash
 npm i
 ```
+## Usage
 
+To run the tests use:
+```bash
+npm run test:prod
+```

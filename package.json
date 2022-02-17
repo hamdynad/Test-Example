@@ -4,10 +4,7 @@
   "description": "Testing JupiterOne Test Plan",
   "main": "index.js",
   "scripts": {
-    "test:local": "cypress run --env fileConfig=local --spec '**/*.feature'",
     "test:prod": "cypress run --env fileConfig=prod --spec '**/*.feature'",
-    "test:qa": "cypress run --env fileConfig=qa --spec '**/*.feature'",
-    "test:staging": "cypress run --env fileConfig=staging --spec '**/*.feature'",
     "prettier:format": "prettier --config .prettierrc 'cypress/**/*.js' --write"
   },
   "cypress-cucumber-preprocessor": {
@@ -24,9 +21,7 @@
   },
   "homepage": "https://github.com/hamdynad/nadia-jupiter-one-test#readme",
   "devDependencies": {
-    "axe-core": "^4.4.1",
-    "cypress": "^9.5.0",
-    "cypress-axe": "^0.14.0",
+    "cypress": "9.5.0",
     "cypress-cucumber-preprocessor": "4.3.1",
     "prettier": "2.5.1"
   }

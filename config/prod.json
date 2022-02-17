@@ -1,6 +1,9 @@
 {
-    "testFiles": "**/*.feature",
-    "env": {
-        "url": "https://jupiterone.com/"
-    }
+  "testFiles": "**/*.feature",
+  "chromeWebSecurity": false,
+  "viewportWidth": 1536,
+  "viewportHeight": 960,
+  "env": {
+    "url": "https://jupiterone.com/"
   }
+}

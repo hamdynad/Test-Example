@@ -1,0 +1,28 @@
+
+Manual Run of Accessibility on the Site with Chrome LightHouse Tool and ColorBlindness Tools
+
+LightHouse Test Results:
+
+https://www.screencast.com/t/Gc4sjXpSLJ 
+
+ScreenShots of View of site from a color impaired perspective: Tools used were the Chrome Dev Accessibility Tools to mimic vision impairments.  Click links for the each screen shot.
+
+View of the console and where to find the accessibility vision tools:
+https://www.screencast.com/t/dhTawhnxthx
+
+JupiterOne Home Page from the View of someone with a Color Impairment: 
+
+Achromatopsia
+https://www.screencast.com/t/a1upophy
+
+Tritanopia
+https://www.screencast.com/t/5ekZTdDAcG1b
+
+Deuteranopia
+https://www.screencast.com/t/0hURuJih
+
+Protanopia
+https://www.screencast.com/t/8Cb02c9mPqdC
+
+Blurred Vision Example:
+https://www.screencast.com/t/CJ42ICjJ
