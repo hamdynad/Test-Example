@@ -1,0 +1,28 @@
+{
+  "name": "nadia-jupiter-one-test",
+  "version": "1.0.0",
+  "description": "Testing JupiterOne Test Plan",
+  "main": "index.js",
+  "scripts": {
+    "test:prod": "cypress run --env fileConfig=prod --spec '**/*.feature'",
+    "prettier:format": "prettier --config .prettierrc 'cypress/**/*.js' --write"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamdynad/nadia-jupiter-one-test.git"
+  },
+  "author": "nadia hamdy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamdynad/nadia-jupiter-one-test/issues"
+  },
+  "homepage": "https://github.com/hamdynad/nadia-jupiter-one-test#readme",
+  "devDependencies": {
+    "cypress": "9.5.0",
+    "cypress-cucumber-preprocessor": "4.3.1",
+    "prettier": "2.5.1"
+  }
+}
